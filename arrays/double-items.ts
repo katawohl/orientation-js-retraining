@@ -14,7 +14,6 @@ drinks.forEach(drink => {
     drink += drink;
 
     newArray.push(drink);
-}
-)
+});
 
 console.log(newArray);
