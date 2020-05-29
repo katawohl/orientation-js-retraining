@@ -9,6 +9,9 @@ fetch('https://api.giphy.com/v1/gifs/search?api_key=VopGp0I0Fgn2Dgq029LJ0dokfh4d
 
         gifs.forEach(gif => {
             let gifDiv = document.createElement('div');
+            gifDiv.style.display = "inline-block";
+            gifDiv.style.margin = "10px";
+
             let gifImage = document.createElement('iframe');
 
             gifImage.setAttribute('src', gif.embed_url);
