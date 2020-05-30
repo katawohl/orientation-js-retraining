@@ -3,14 +3,18 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 const Button = (props) => (
-<button class="yellowButton" onClick={props.onClickFunction}>Check 'em out!</button>
+<button class="mainButton" onClick={props.onClickFunction}>Check 'em out!</button>
 );
 
 class TeaDetails extends React.Component {
     render() {
         return (
-        <div>
-            Here are the tea deteails.
+        <div class="secondaryDiv">
+            <h2>Tea 101</h2>
+            <button class="teaButton">Some text here</button>
+            <button class="teaButton">Some text here</button>
+            <button class="teaButton">Some text here</button>
+            <button class="teaButton">Some text here</button>
         </div>
         );
     }

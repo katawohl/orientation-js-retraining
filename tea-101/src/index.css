@@ -7,11 +7,16 @@ body {
     margin: 3em;
 }
 
+.secondaryDiv {
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
 h1 {
     font-size: 36pt;
 }
 
-.yellowButton {
+.mainButton, .teaButton {
     padding: 10px;
     background-color: #eec643;
     font-weight: bold;
@@ -19,4 +24,17 @@ h1 {
     color: black;
     border: black solid 1px;
     border-radius: 2px;
+}
+
+.teaButton {
+    margin-top: 10pt;
+    margin-bottom: 10pt;
+    display: block;
+    font-size: 16pt;
+    
+}
+
+.teaButton:hover {
+    background-color:  #0d21a1;
+    color: cornsilk;
 }
