@@ -6,6 +6,16 @@ const Button = (props) => (
 <button class="yellowButton" onClick={props.onClickFunction}>Check 'em out!</button>
 );
 
+class TeaDetails extends React.Component {
+    render() {
+        return (
+        <div>
+            Here are the tea deteails.
+        </div>
+        );
+    }
+}
+
 class App extends React.Component {
     state = {
         showTeas: false,
@@ -17,7 +27,7 @@ class App extends React.Component {
             <div class="mainDiv" >
                 <h1>Delicious Delights</h1>
                 <Button onClickFunction={showTeasAction} />
-                { this.state.showTeas && (<div>hello world!</div>) }
+                { this.state.showTeas && (<TeaDetails/>) }
             </div>
       
         )
