@@ -1,0 +1,22 @@
+body {
+    background-color: #eef0f2;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.mainDiv {
+    margin: 3em;
+}
+
+h1 {
+    font-size: 36pt;
+}
+
+.yellowButton {
+    padding: 10px;
+    background-color: #eec643;
+    font-weight: bold;
+    font-size: 24pt;
+    color: black;
+    border: black solid 1px;
+    border-radius: 2px;
+}
