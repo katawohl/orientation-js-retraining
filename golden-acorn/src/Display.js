@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Display = () => (
+const Display = (props) => (
     <div>
-        This the display.
+       {props.message}
     </div>
 );
 
