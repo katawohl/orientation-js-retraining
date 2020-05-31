@@ -1,6 +1,7 @@
 body {
     background-color: #eef0f2;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
 }
 
 .mainDiv {
@@ -16,7 +17,22 @@ h1 {
     font-size: 36pt;
 }
 
-.mainButton, .teaButton {
+.contentDiv {
+    display: inline;
+}
+
+.buttonDiv {
+    width: 25%;
+    float: left;
+}
+
+.parDiv {
+    width: 70%;
+    float: right;
+    padding: 10px;
+}
+
+.mainButton, .teaButton, .opinionBtn {
     padding: 10px;
     background-color: #eec643;
     font-weight: bold;
@@ -31,10 +47,37 @@ h1 {
     margin-bottom: 10pt;
     display: block;
     font-size: 16pt;
-    
 }
 
 .teaButton:hover {
     background-color:  #0d21a1;
     color: cornsilk;
+}
+
+.opinionBtn {
+    position: relative;
+    font-size: 16pt;
+}
+
+.roundImg {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: solid darkgray 1px;
+    transform: rotate(150deg);
+    float: left;
+}
+
+.imgDiv {
+    height: 200px;
+    padding: 10px;
+}
+
+.imgText {
+    margin-right: 10px;
+    max-width: 70%;
+    padding: 10px;
+    float: right;
+    background-color: #dadde5;
+    color: darkgrey;
 }
