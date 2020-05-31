@@ -8,9 +8,9 @@ const App = ({title}) => {
     return (
     <div>
         <h1>{title}</h1>
-        <Button />
+        <Button title='Buy one'/>
         <Display message={counter} />
-        <Button />
+        <Button title='Eat one'/>
     </div>
     );
 };
