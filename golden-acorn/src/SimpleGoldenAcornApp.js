@@ -8,14 +8,12 @@ const App = ({ title }) => {
     const changeCounter = (bool, counter) => {
         if (bool){
             setCounter(counter + 1);
-            console.log(counter);
         } else {
             if (counter > 0){
                 setCounter(counter - 1);
             } else if (counter === 0) {
                 setCounter(counter);
             }
-            console.log(counter);
         }
     }
 
