@@ -1,7 +1,11 @@
 import React from 'react';
 
-const Button = (props) => (
-    <button onClick={props.onClickFunction}>{props.title}</button>
-);
+const Button = (props) => {
+    const handleclick = () => props.onClickFunction(props.bool, props.counter);
+
+    return (
+        <button onClick={handleclick}>{props.title}</button>
+    );
+}
 
 export default Button
