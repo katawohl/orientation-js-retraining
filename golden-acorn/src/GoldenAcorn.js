@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Button from './Button.js'
 import Display from './Display.js'
 
-const SimpleGoldenAcornApp = () => {
+const GoldenAcorn = () => {
     const [counter, setCounter] = useState(0);
 
     const changeCounter = (bool, counter) => {
@@ -29,4 +29,4 @@ const SimpleGoldenAcornApp = () => {
     );
 };
 
-export default SimpleGoldenAcornApp;
+export default GoldenAcorn;

@@ -4,7 +4,7 @@ import {
     Route,
     Link
 } from "react-router-dom";
-import SimpleGoldenAcornApp from './SimpleGoldenAcornApp'
+import GoldenAcorn from './GoldenAcorn'
 import HomePage from './HomePage'
 
 const App = () => (
@@ -22,7 +22,7 @@ const App = () => (
                 </ul>
             </nav>
             <Route exact path="/" component={HomePage} />
-            <Route path="/simple/states" component={SimpleGoldenAcornApp} />
+            <Route path="/simple/states" component={GoldenAcorn} />
         </div>
 
     </Router>
