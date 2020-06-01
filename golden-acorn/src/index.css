@@ -1,34 +1,34 @@
 body {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 h1 {
-    margin: 30px;
+  margin: 30px;
 }
 
 li {
-    display: inline;
-    margin-left: 10px;
-    margin-right: 10px;
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .acorn-div {
-    margin: 30px;
+  margin: 30px;
 }
 
 .button-div {
-    margin-top: 10px;
-    margin-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .display-div {
-    padding-left: 1.4em;
-    color: chocolate;
-    font-weight: bold;
-    font-size: 24pt;
+  padding-left: 1.4em;
+  color: chocolate;
+  font-weight: bold;
+  font-size: 24pt;
 }
 
 .back-home-link {
-    margin-left: 40px;
-    padding: 10px;
+  margin-left: 40px;
+  padding: 10px;
 }
