@@ -1,5 +1,6 @@
 import React from 'react'
 import ImageContent from './ImageContent'
+import OpinionButton from './OpinionButton'
 
 class TeaDetails extends React.Component {
     render() {
@@ -20,7 +21,7 @@ class TeaDetails extends React.Component {
                 </div>      
             </div> 
             <ImageContent />
-            <button className="opinionBtn">Leave an opinion</button>
+            <OpinionButton />
         </div>
         );
     }

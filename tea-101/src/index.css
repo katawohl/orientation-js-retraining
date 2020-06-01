@@ -6,6 +6,8 @@ body {
 
 .mainDiv {
     margin: 3em;
+    height: auto;
+    overflow: hidden;
 }
 
 .secondaryDiv {
@@ -17,19 +19,22 @@ h1 {
     font-size: 36pt;
 }
 
-.contentDiv {
-    display: inline;
-}
+.contentDiv:after { 
+    content: " "; 
+    display: block;
+    clear: both;
+} 
 
 .buttonDiv {
     width: 25%;
     float: left;
+    height: 100%;
 }
 
 .parDiv {
     width: 70%;
     float: right;
-    padding: 10px;
+    height: 100%;
 }
 
 .mainButton, .teaButton, .opinionBtn {
@@ -54,11 +59,6 @@ h1 {
     color: cornsilk;
 }
 
-.opinionBtn {
-    position: relative;
-    font-size: 16pt;
-}
-
 .roundImg {
     height: 200px;
     width: 200px;
@@ -68,10 +68,11 @@ h1 {
     float: left;
 }
 
-.imgDiv {
-    height: 200px;
-    padding: 10px;
-}
+.imgDiv:after { 
+    content: " "; 
+    display: block;
+    clear: both;
+} 
 
 .imgText {
     margin-right: 10px;
@@ -80,4 +81,16 @@ h1 {
     float: right;
     background-color: #dadde5;
     color: darkgrey;
+}
+
+.opBtnDiv {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.opinionBtn {
+    font-size: 16pt;
 }
