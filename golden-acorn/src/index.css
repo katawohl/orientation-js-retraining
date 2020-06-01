@@ -1,0 +1,29 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1 {
+    margin: 30px;
+}
+
+li {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.acorn-div {
+    margin: 30px;
+}
+
+.button-div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.display-div {
+    padding-left: 1.1em;
+    color: chocolate;
+    font-weight: bold;
+    font-size: 24pt;
+}
