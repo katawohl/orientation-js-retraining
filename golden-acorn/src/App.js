@@ -2,17 +2,19 @@ import React from 'react';
 import {
     BrowserRouter as Router,
     Route,
-    Link
+    Link,
+    Switch
 } from "react-router-dom";
 import GoldenAcorn from './GoldenAcorn'
 import HomePage from './HomePage'
+import PageNotFound from './PageNotFound'
 
 const App = () => (
     <Router>
 
         <div>
             <nav className="navbar navbar-light">
-                <ul className="nav navbar-nav" style={{listStyleType : 'none'}}>
+                <ul className="nav navbar-nav" style={{ listStyleType: 'none' }}>
                     <li>
                         <Link to="/">Home page</Link>
                     </li>
@@ -21,8 +23,11 @@ const App = () => (
                     </li>
                 </ul>
             </nav>
-            <Route exact path="/" component={HomePage} />
-            <Route path="/simple/states" component={GoldenAcorn} />
+            <Switch>
+                <Route exact path="/" component={HomePage} />
+                <Route path="/simple/states" component={GoldenAcorn} />
+                <Route component={PageNotFound} />
+            </Switch>
         </div>
 
     </Router>
