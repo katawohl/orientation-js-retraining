@@ -5,7 +5,7 @@ const Button = (props) => {
 
     return (
         <div className='button-div'>
-        <button onClick={handleclick}>{props.title}</button>
+        <button onClick={handleclick}>{props.title} <span role='img' ariaLabel='acorn'>🌰</span></button>
         </div>
     );
 }

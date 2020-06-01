@@ -21,9 +21,9 @@ const GoldenAcorn = () => {
         <div>
             <h1>Golden Acorn Application with States!</h1>
             <div className='acorn-div'>
-                <Button title='Buy one 🌰' onClickFunction={changeCounter} counter={counter} bool={true} />
+                <Button title='Buy one' onClickFunction={changeCounter} counter={counter} bool={true} />
                 <Display message={counter} />
-                <Button title='Eat one 🌰' onClickFunction={changeCounter} counter={counter} bool={false} />
+                <Button title='Eat one' onClickFunction={changeCounter} counter={counter} bool={false} />
             </div>
         </div>
     );
