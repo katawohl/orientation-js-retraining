@@ -12,7 +12,7 @@ const App = () => (
 
         <div>
             <nav className="navbar navbar-light">
-                <ul className="nav navbar-nav">
+                <ul className="nav navbar-nav" style={{listStyleType : 'none'}}>
                     <li>
                         <Link to="/">Home page</Link>
                     </li>
