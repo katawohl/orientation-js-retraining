@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Button from './Button.js'
 import Display from './Display.js'
 
-const App = ({ title }) => {
+const SimpleGoldenAcornApp = () => {
     const [counter, setCounter] = useState(0);
 
     const changeCounter = (bool, counter) => {
@@ -19,7 +19,7 @@ const App = ({ title }) => {
 
     return (
         <div>
-            <h1>{title}</h1>
+            <h1>Golden Acorn Application with States!</h1>
             <Button title='Buy one' onClickFunction={changeCounter} counter={counter} bool={true} />
             <Display message={counter} />
             <Button title='Eat one' onClickFunction={changeCounter} counter={counter} bool={false}/>
@@ -27,4 +27,4 @@ const App = ({ title }) => {
     );
 };
 
-export default App;
+export default SimpleGoldenAcornApp;
