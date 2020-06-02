@@ -7,7 +7,7 @@ const Button = (props) => {
     <div className="button-div">
       <button onClick={handleclick}>
         {props.title}{" "}
-        <span role="img" ariaLabel="acorn">
+        <span role="img" aria-label="acorn">
           🌰
         </span>
       </button>

@@ -4,7 +4,7 @@ const HomePage = () => (
   <div>
     <h1>
       Golden Acorn is life!{" "}
-      <span role="img" ariaLabel="acorn">
+      <span role="img" aria-label="acorn">
         🌰
       </span>
     </h1>
